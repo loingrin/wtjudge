@@ -1,0 +1,1260 @@
+{
+  "version": "1.1.1",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 205,
+      "sha256": "3f1a796baee454f7ff0e02d658f33fb28866bcf31b2fdf5c1707b078eb58718d"
+    },
+    {
+      "path": "app.py",
+      "size": 1392,
+      "sha256": "33240a35d40eb9deba7fc44b60aa60071d76459bd6a2b101beaa931e8a1d28f0"
+    },
+    {
+      "path": "assets/wotu.ico",
+      "size": 270398,
+      "sha256": "0363f2077d8df4bd760cb02a8b053bacea657dd2804a35529183be3ad12fb083"
+    },
+    {
+      "path": "assets/wotu.png",
+      "size": 20128,
+      "sha256": "e3adfd5f597774e26d381f4fc29b535a5033645b3f458cb60fb0a901f4f5239f"
+    },
+    {
+      "path": "build.bat",
+      "size": 499,
+      "sha256": "b0fdc58ef363911ccd51f3d7c6ae37e8e540ed8adb4d4835b1c8d31070ab5ad7"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 3039,
+      "sha256": "59d60d4fac8607a902435378dbbf23e346d1b4cad319c31e43d9f5c1c193788f"
+    },
+    {
+      "path": "demo/submissions/HBCSP26001/apple/apple.cpp",
+      "size": 210,
+      "sha256": "156b7134ccd476fd32a860fc701f12e381fa8bc6b8f297fb907d2619800cd660"
+    },
+    {
+      "path": "demo/submissions/HBCSP26001/game/game.cpp",
+      "size": 208,
+      "sha256": "c69e7cc6d8e447d442d67b062f9e6e483f71e7580f075e938995ef6ba3088a5c"
+    },
+    {
+      "path": "demo/submissions/HBCSP26001/road/road.cpp",
+      "size": 208,
+      "sha256": "ea583daf988e6dcd080d726ec22bae81402708e485e07088c3cec2524af15c23"
+    },
+    {
+      "path": "demo/submissions/HBCSP26001/tree/tree.cpp",
+      "size": 208,
+      "sha256": "1e5dff5acfe4c5fd28f459387150a942e9d9b56a8daf62a8f06d8418699565e5"
+    },
+    {
+      "path": "demo/submissions/HBCSP26002/apple/apple.cpp",
+      "size": 204,
+      "sha256": "b83c9e42b3a9ae9cabdb6575a48b961aebbea8b863389b9aaba5fcd39d2f7b8d"
+    },
+    {
+      "path": "demo/submissions/HBCSP26002/game/game.cpp",
+      "size": 171,
+      "sha256": "af7e27e4e35e9ee0e45257a4002eb8ca62e4c69758ce17f0fd14e491a7e7c3f6"
+    },
+    {
+      "path": "demo/submissions/HBCSP26002/road/road.cpp",
+      "size": 145,
+      "sha256": "afd619b57d69460b3744135548e5e3b42e59cafe1cbbd2c728452b6261aebfb1"
+    },
+    {
+      "path": "demo/submissions/HBCSP26002/tree/tree.cpp",
+      "size": 157,
+      "sha256": "dfc35fc6bd92c7f45c07a74ecac95a78032c5046c0a8af689ae0149142c8f966"
+    },
+    {
+      "path": "demo/submissions/HBCSP26003/apple/apple.cpp",
+      "size": 212,
+      "sha256": "63e735eb10766d4f739aad60ceaa299a97f6eb4c9cf843adfdfdd8b60022e028"
+    },
+    {
+      "path": "demo/submissions/HBCSP26003/game/game.cpp",
+      "size": 208,
+      "sha256": "c69e7cc6d8e447d442d67b062f9e6e483f71e7580f075e938995ef6ba3088a5c"
+    },
+    {
+      "path": "demo/submissions/HBCSP26003/tree/tree.cpp",
+      "size": 132,
+      "sha256": "726f4da017c7250b6e1839a1345ed5f0edd1dbb470eb7e97d341fe160d24cd6f"
+    },
+    {
+      "path": "demo/testdata/apple/1.in",
+      "size": 5,
+      "sha256": "01d16d3fc9baf02b7e1f16368d22e0d2b71cc96ac27eb8aa6f752c70ad323a70"
+    },
+    {
+      "path": "demo/testdata/apple/1.out",
+      "size": 3,
+      "sha256": "24ba1e99dc06b19351323aae0d7370243d586475a634b7f6ff7927fbc72cfaed"
+    },
+    {
+      "path": "demo/testdata/apple/2.in",
+      "size": 5,
+      "sha256": "987c88acd20069170636a20695a01e241c86924212827627e0be586b8b78d75c"
+    },
+    {
+      "path": "demo/testdata/apple/2.out",
+      "size": 3,
+      "sha256": "7fb2aaeaf3eef66b52db104118c30f62899f5f0df520350a94a8fcb843c0dfdf"
+    },
+    {
+      "path": "demo/testdata/apple/3.in",
+      "size": 5,
+      "sha256": "c76e802fb4a6d28815c61aab4c1480348d17da30d419e9302222f3e05bace89b"
+    },
+    {
+      "path": "demo/testdata/apple/3.out",
+      "size": 3,
+      "sha256": "9b6dd0f55d1cea37555db317f53a0631f694bd46df8018cc2aeed3d9e2f32f5f"
+    },
+    {
+      "path": "demo/testdata/game/1.in",
+      "size": 5,
+      "sha256": "01d16d3fc9baf02b7e1f16368d22e0d2b71cc96ac27eb8aa6f752c70ad323a70"
+    },
+    {
+      "path": "demo/testdata/game/1.out",
+      "size": 3,
+      "sha256": "24ba1e99dc06b19351323aae0d7370243d586475a634b7f6ff7927fbc72cfaed"
+    },
+    {
+      "path": "demo/testdata/game/10.in",
+      "size": 7,
+      "sha256": "9372e9118622e53c4de18692dd7722421ae790e07ee958311ec9a9fbbe86fae8"
+    },
+    {
+      "path": "demo/testdata/game/10.out",
+      "size": 4,
+      "sha256": "ce60da21a19e0a3d484fc4ee3f868999745b7f23475772ea8c87c7bde54c4b43"
+    },
+    {
+      "path": "demo/testdata/game/11.in",
+      "size": 7,
+      "sha256": "57f5b9db1a07338ef714d79445b5a6c03bf7a1bdf7098ab92742708f2225e89a"
+    },
+    {
+      "path": "demo/testdata/game/11.out",
+      "size": 4,
+      "sha256": "15ee9b1ceab82ed6b40b680845882d493386048c45bea294d33c73c072961ee9"
+    },
+    {
+      "path": "demo/testdata/game/12.in",
+      "size": 7,
+      "sha256": "6730957cc0bf8a441022ed48d5afbab9ec88589e2edce2958f2648c26e8c8c69"
+    },
+    {
+      "path": "demo/testdata/game/12.out",
+      "size": 4,
+      "sha256": "50e1c70ff6acbb8a6c78e18ccc9428fb7b473a6be9320e52019a66cd32afba95"
+    },
+    {
+      "path": "demo/testdata/game/13.in",
+      "size": 7,
+      "sha256": "784d6911a935c3209dd2f67250c8425cab4c6b1e19d517ac80591905f627d01e"
+    },
+    {
+      "path": "demo/testdata/game/13.out",
+      "size": 4,
+      "sha256": "3c0a9ff56bd9a95864731ab94cccce154e70fcb82ffe8988ae93daabee635ad9"
+    },
+    {
+      "path": "demo/testdata/game/14.in",
+      "size": 7,
+      "sha256": "7f02823ad7e723035b795e499d9849698d38027312952538c88d9a59a64ca02c"
+    },
+    {
+      "path": "demo/testdata/game/14.out",
+      "size": 4,
+      "sha256": "cc40d093b4b0aa5f9ce40061b3489183aab268da0be0400dee53e5a6480d9346"
+    },
+    {
+      "path": "demo/testdata/game/15.in",
+      "size": 7,
+      "sha256": "aa0de032c01956438ada3b98438ec43a6b80471946343aa4cb239f1aeae421bc"
+    },
+    {
+      "path": "demo/testdata/game/15.out",
+      "size": 4,
+      "sha256": "a951e23594a3f4f473035249277fff93b85c2d9d21e4add532b377384ed31b89"
+    },
+    {
+      "path": "demo/testdata/game/16.in",
+      "size": 7,
+      "sha256": "08304dc72d4f26285f6f11321222d3815c9c1efa34af531edbd25a2ee5979de4"
+    },
+    {
+      "path": "demo/testdata/game/16.out",
+      "size": 4,
+      "sha256": "42817c432a683116970d4048f2ddf476ff8dfca7a5d178bfa3a56679862e36aa"
+    },
+    {
+      "path": "demo/testdata/game/17.in",
+      "size": 7,
+      "sha256": "381f140d25fa471ab2c90302ae06692ae832215fde33f2e45d61338067176e7f"
+    },
+    {
+      "path": "demo/testdata/game/17.out",
+      "size": 4,
+      "sha256": "f82cf59144a96566304c85bba4a1109856f78313add828a8e8629714ea2653ea"
+    },
+    {
+      "path": "demo/testdata/game/18.in",
+      "size": 7,
+      "sha256": "accea5a086c790b4ff0f5826c419eb7f11aa37a70e6aa479255c493332fd2d93"
+    },
+    {
+      "path": "demo/testdata/game/18.out",
+      "size": 4,
+      "sha256": "a77b54178e2066fdc29229d4c0b59051caedc92e918e037928e185d39ad86316"
+    },
+    {
+      "path": "demo/testdata/game/19.in",
+      "size": 7,
+      "sha256": "18ddab574f6119aa046523443b719a348f80b6ca4d8937ed91716105e952cd8f"
+    },
+    {
+      "path": "demo/testdata/game/19.out",
+      "size": 4,
+      "sha256": "6a0d069048f7ef14f538f1691dd6aeda4c7bbdb0442861f3bce74d843fe4004c"
+    },
+    {
+      "path": "demo/testdata/game/2.in",
+      "size": 5,
+      "sha256": "987c88acd20069170636a20695a01e241c86924212827627e0be586b8b78d75c"
+    },
+    {
+      "path": "demo/testdata/game/2.out",
+      "size": 3,
+      "sha256": "7fb2aaeaf3eef66b52db104118c30f62899f5f0df520350a94a8fcb843c0dfdf"
+    },
+    {
+      "path": "demo/testdata/game/20.in",
+      "size": 7,
+      "sha256": "1a560cee2516440801132380531cbe692fcdee78a8b91bdfb5023fe1e2a11fb7"
+    },
+    {
+      "path": "demo/testdata/game/20.out",
+      "size": 4,
+      "sha256": "ddb5c6d217ea442d92dcdead04dade6263ea482787904ab5c50a86d142b3c07d"
+    },
+    {
+      "path": "demo/testdata/game/21.in",
+      "size": 7,
+      "sha256": "af68fe85866885d34861044699caeaa37eb69b9f820183175153b7db5dee79f2"
+    },
+    {
+      "path": "demo/testdata/game/21.out",
+      "size": 4,
+      "sha256": "39d7abfc0035fcf2d3aa432883b02e47668dd366171cfdc8e5fe5a9bab29efb0"
+    },
+    {
+      "path": "demo/testdata/game/22.in",
+      "size": 7,
+      "sha256": "67c2ea3948c69b2c92efb87fc8b5c8802e2b9e873bcbbfe9d6630178b1581c1b"
+    },
+    {
+      "path": "demo/testdata/game/22.out",
+      "size": 4,
+      "sha256": "e603e189a414673bc741df635271cd1b1ef25d8e3a1131dd0e847b632bbd4869"
+    },
+    {
+      "path": "demo/testdata/game/23.in",
+      "size": 7,
+      "sha256": "39886614a9634ef4d6b4faec9cdd6f21bf6ef6c276941e993052571e0de0082f"
+    },
+    {
+      "path": "demo/testdata/game/23.out",
+      "size": 4,
+      "sha256": "8c094fa7a36d960f46eb971614f084207c9a037d28c4b42b622f887efe455d99"
+    },
+    {
+      "path": "demo/testdata/game/24.in",
+      "size": 7,
+      "sha256": "52ead52003b7e16c8b11bd01225a4630772d14b1f903596e1c67bf866e8b971d"
+    },
+    {
+      "path": "demo/testdata/game/24.out",
+      "size": 4,
+      "sha256": "4c50d27c5031d7f039fe61dbd05b1e84b02d76786f79c569be88aa04c95aa417"
+    },
+    {
+      "path": "demo/testdata/game/25.in",
+      "size": 7,
+      "sha256": "79d65e328e95c8ec6e03b3e826a70bf36cfc43b84f52eb0517d7f4ea2bae63ab"
+    },
+    {
+      "path": "demo/testdata/game/25.out",
+      "size": 4,
+      "sha256": "7983f5c842d540848e1ae31a09e843556129d0a9f5a5dde059cacec91616b85a"
+    },
+    {
+      "path": "demo/testdata/game/3.in",
+      "size": 5,
+      "sha256": "c76e802fb4a6d28815c61aab4c1480348d17da30d419e9302222f3e05bace89b"
+    },
+    {
+      "path": "demo/testdata/game/3.out",
+      "size": 3,
+      "sha256": "9b6dd0f55d1cea37555db317f53a0631f694bd46df8018cc2aeed3d9e2f32f5f"
+    },
+    {
+      "path": "demo/testdata/game/4.in",
+      "size": 5,
+      "sha256": "f45463685ae5512244499a39efaeca7916ef8541e610deb19501115be1a1917f"
+    },
+    {
+      "path": "demo/testdata/game/4.out",
+      "size": 3,
+      "sha256": "69fa4dd4fdc0b43ba7ca7c997539c4500f03ab9b220228e2b1e97bd305397806"
+    },
+    {
+      "path": "demo/testdata/game/5.in",
+      "size": 5,
+      "sha256": "024f3ed03a2ef4b86c00e6cb0396f77e5a06e68d4447bbc72321d667b7cd5eca"
+    },
+    {
+      "path": "demo/testdata/game/5.out",
+      "size": 4,
+      "sha256": "412a8da13330793d63a3a17bed32c76be361edad27fe0f6a0ceb144d3f0aa50e"
+    },
+    {
+      "path": "demo/testdata/game/6.in",
+      "size": 5,
+      "sha256": "53ae06477b8edc3e88fcb0ca8b34c24dfb4ccbf7d2c779384716cc531fdd3ee4"
+    },
+    {
+      "path": "demo/testdata/game/6.out",
+      "size": 4,
+      "sha256": "f7c4f4cc6c99f0e5d21986eaf4e0ee5170b03b05ba444a6b2792a902e38f07b2"
+    },
+    {
+      "path": "demo/testdata/game/7.in",
+      "size": 5,
+      "sha256": "1681bc7c3b16650e4b1d2fe2931087fb69755da88d6c50df842df5615bd3b935"
+    },
+    {
+      "path": "demo/testdata/game/7.out",
+      "size": 4,
+      "sha256": "e2bb232cac786f7284bb237d193407e94f32ee0fbf64d27d0ae8b1642de44923"
+    },
+    {
+      "path": "demo/testdata/game/8.in",
+      "size": 5,
+      "sha256": "593c74597b6a3293939c2b8ca958c39de7d85dde2f998bbcd810ef42d0345bea"
+    },
+    {
+      "path": "demo/testdata/game/8.out",
+      "size": 4,
+      "sha256": "5b677464f4941a4c274964d723bf47e3cd7cdcb5d53379a3b7176f0c456cf9a0"
+    },
+    {
+      "path": "demo/testdata/game/9.in",
+      "size": 6,
+      "sha256": "0911084bd2dd899a71800e29afd8b48b12a784a31ab6c3fa5d382eab859c860d"
+    },
+    {
+      "path": "demo/testdata/game/9.out",
+      "size": 4,
+      "sha256": "2f1a7442c3821feac278501216ca44255cc53b3cb9fe9edb1b79610afdaa6d25"
+    },
+    {
+      "path": "demo/testdata/road/1.in",
+      "size": 5,
+      "sha256": "01d16d3fc9baf02b7e1f16368d22e0d2b71cc96ac27eb8aa6f752c70ad323a70"
+    },
+    {
+      "path": "demo/testdata/road/1.out",
+      "size": 3,
+      "sha256": "24ba1e99dc06b19351323aae0d7370243d586475a634b7f6ff7927fbc72cfaed"
+    },
+    {
+      "path": "demo/testdata/road/2.in",
+      "size": 5,
+      "sha256": "987c88acd20069170636a20695a01e241c86924212827627e0be586b8b78d75c"
+    },
+    {
+      "path": "demo/testdata/road/2.out",
+      "size": 3,
+      "sha256": "7fb2aaeaf3eef66b52db104118c30f62899f5f0df520350a94a8fcb843c0dfdf"
+    },
+    {
+      "path": "demo/testdata/road/3.in",
+      "size": 5,
+      "sha256": "c76e802fb4a6d28815c61aab4c1480348d17da30d419e9302222f3e05bace89b"
+    },
+    {
+      "path": "demo/testdata/road/3.out",
+      "size": 3,
+      "sha256": "9b6dd0f55d1cea37555db317f53a0631f694bd46df8018cc2aeed3d9e2f32f5f"
+    },
+    {
+      "path": "demo/testdata/road/4.in",
+      "size": 5,
+      "sha256": "f45463685ae5512244499a39efaeca7916ef8541e610deb19501115be1a1917f"
+    },
+    {
+      "path": "demo/testdata/road/4.out",
+      "size": 3,
+      "sha256": "69fa4dd4fdc0b43ba7ca7c997539c4500f03ab9b220228e2b1e97bd305397806"
+    },
+    {
+      "path": "demo/testdata/road/5.in",
+      "size": 5,
+      "sha256": "024f3ed03a2ef4b86c00e6cb0396f77e5a06e68d4447bbc72321d667b7cd5eca"
+    },
+    {
+      "path": "demo/testdata/road/5.out",
+      "size": 4,
+      "sha256": "412a8da13330793d63a3a17bed32c76be361edad27fe0f6a0ceb144d3f0aa50e"
+    },
+    {
+      "path": "demo/testdata/road/6.in",
+      "size": 5,
+      "sha256": "53ae06477b8edc3e88fcb0ca8b34c24dfb4ccbf7d2c779384716cc531fdd3ee4"
+    },
+    {
+      "path": "demo/testdata/road/6.out",
+      "size": 4,
+      "sha256": "f7c4f4cc6c99f0e5d21986eaf4e0ee5170b03b05ba444a6b2792a902e38f07b2"
+    },
+    {
+      "path": "demo/testdata/tree/1.in",
+      "size": 5,
+      "sha256": "01d16d3fc9baf02b7e1f16368d22e0d2b71cc96ac27eb8aa6f752c70ad323a70"
+    },
+    {
+      "path": "demo/testdata/tree/1.out",
+      "size": 3,
+      "sha256": "24ba1e99dc06b19351323aae0d7370243d586475a634b7f6ff7927fbc72cfaed"
+    },
+    {
+      "path": "demo/testdata/tree/10.in",
+      "size": 7,
+      "sha256": "9372e9118622e53c4de18692dd7722421ae790e07ee958311ec9a9fbbe86fae8"
+    },
+    {
+      "path": "demo/testdata/tree/10.out",
+      "size": 4,
+      "sha256": "ce60da21a19e0a3d484fc4ee3f868999745b7f23475772ea8c87c7bde54c4b43"
+    },
+    {
+      "path": "demo/testdata/tree/2.in",
+      "size": 5,
+      "sha256": "987c88acd20069170636a20695a01e241c86924212827627e0be586b8b78d75c"
+    },
+    {
+      "path": "demo/testdata/tree/2.out",
+      "size": 3,
+      "sha256": "7fb2aaeaf3eef66b52db104118c30f62899f5f0df520350a94a8fcb843c0dfdf"
+    },
+    {
+      "path": "demo/testdata/tree/3.in",
+      "size": 5,
+      "sha256": "c76e802fb4a6d28815c61aab4c1480348d17da30d419e9302222f3e05bace89b"
+    },
+    {
+      "path": "demo/testdata/tree/3.out",
+      "size": 3,
+      "sha256": "9b6dd0f55d1cea37555db317f53a0631f694bd46df8018cc2aeed3d9e2f32f5f"
+    },
+    {
+      "path": "demo/testdata/tree/4.in",
+      "size": 5,
+      "sha256": "f45463685ae5512244499a39efaeca7916ef8541e610deb19501115be1a1917f"
+    },
+    {
+      "path": "demo/testdata/tree/4.out",
+      "size": 3,
+      "sha256": "69fa4dd4fdc0b43ba7ca7c997539c4500f03ab9b220228e2b1e97bd305397806"
+    },
+    {
+      "path": "demo/testdata/tree/5.in",
+      "size": 5,
+      "sha256": "024f3ed03a2ef4b86c00e6cb0396f77e5a06e68d4447bbc72321d667b7cd5eca"
+    },
+    {
+      "path": "demo/testdata/tree/5.out",
+      "size": 4,
+      "sha256": "412a8da13330793d63a3a17bed32c76be361edad27fe0f6a0ceb144d3f0aa50e"
+    },
+    {
+      "path": "demo/testdata/tree/6.in",
+      "size": 5,
+      "sha256": "53ae06477b8edc3e88fcb0ca8b34c24dfb4ccbf7d2c779384716cc531fdd3ee4"
+    },
+    {
+      "path": "demo/testdata/tree/6.out",
+      "size": 4,
+      "sha256": "f7c4f4cc6c99f0e5d21986eaf4e0ee5170b03b05ba444a6b2792a902e38f07b2"
+    },
+    {
+      "path": "demo/testdata/tree/7.in",
+      "size": 5,
+      "sha256": "1681bc7c3b16650e4b1d2fe2931087fb69755da88d6c50df842df5615bd3b935"
+    },
+    {
+      "path": "demo/testdata/tree/7.out",
+      "size": 4,
+      "sha256": "e2bb232cac786f7284bb237d193407e94f32ee0fbf64d27d0ae8b1642de44923"
+    },
+    {
+      "path": "demo/testdata/tree/8.in",
+      "size": 5,
+      "sha256": "593c74597b6a3293939c2b8ca958c39de7d85dde2f998bbcd810ef42d0345bea"
+    },
+    {
+      "path": "demo/testdata/tree/8.out",
+      "size": 4,
+      "sha256": "5b677464f4941a4c274964d723bf47e3cd7cdcb5d53379a3b7176f0c456cf9a0"
+    },
+    {
+      "path": "demo/testdata/tree/9.in",
+      "size": 6,
+      "sha256": "0911084bd2dd899a71800e29afd8b48b12a784a31ab6c3fa5d382eab859c860d"
+    },
+    {
+      "path": "demo/testdata/tree/9.out",
+      "size": 4,
+      "sha256": "2f1a7442c3821feac278501216ca44255cc53b3cb9fe9edb1b79610afdaa6d25"
+    },
+    {
+      "path": "docs/images/details.png",
+      "size": 44326,
+      "sha256": "5db175dceb951efeca220d0e29e23115705e62dcc18c2aa2d242efd950177964"
+    },
+    {
+      "path": "docs/images/scores.png",
+      "size": 194292,
+      "sha256": "c4a4abd8613a5957b9b65ecf717ad7ed5a4f900027072d82e14cc062cecce801"
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "size": 10434,
+      "sha256": "6c9fbea5162741f0c64096cc0b90287be23b3609cb9b96be4dca3412fd47ca5c"
+    },
+    {
+      "path": "docs/RELEASE-v1.1.1.md",
+      "size": 1586,
+      "sha256": "1f61cb162d2ddbfd0fa35eb8f04b1993b0a145927c16c530996ada5fb9b492de"
+    },
+    {
+      "path": "docs/THIRD_PARTY_NOTICES.md",
+      "size": 4780,
+      "sha256": "22c1e0a2a42461b12923fbab281b9449ed4bdb1906a88a679b6ae4236530f8d1"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "size": 2384,
+      "sha256": "0c83bb3b8b6307bacfbdfff949ca6e4ece57b2528201a4d14fa6e9fa1d1b7f51"
+    },
+    {
+      "path": "pytest.ini",
+      "size": 113,
+      "sha256": "5f033735dae2b42a102063805f5679106f3374c229bf8a67e42860cb73e3738d"
+    },
+    {
+      "path": "README.md",
+      "size": 12917,
+      "sha256": "b1bc9bc204da6f71702c64c5d85fc5efbad71cfb55822d8bb87283bc826ac6a9"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "size": 34,
+      "sha256": "8636f9ab1a075be9f3039e2a6471837259c4f36b625bcaf7a3d9a1edd2419c6d"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "size": 431,
+      "sha256": "3e4c8412b2b47831bea67992ea89827eb6f7ea54fc6a384fec6e0145dfe650f8"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 72,
+      "sha256": "279658972d02daaf91c82d6fb5ac6d2709827de54b1112a1918d6cdb09d65721"
+    },
+    {
+      "path": "run.bat",
+      "size": 190,
+      "sha256": "4c3c26928101dacc6275124d2fd24306aded7e17bfeae7a54ab56cf364721f47"
+    },
+    {
+      "path": "setup.bat",
+      "size": 851,
+      "sha256": "71beb255f39946abf653ffa9ecd13d4c1e6757258b81b67d9ad8d0454ba51232"
+    },
+    {
+      "path": "tests/conftest.py",
+      "size": 842,
+      "sha256": "23d6d796897dbff30070e3ec551c46db4d8374b0c7bee9126d6f0ee357ba2500"
+    },
+    {
+      "path": "tests/test_comparator.py",
+      "size": 1419,
+      "sha256": "f55bb13e7667baad69eb567b48687895e8eb2a2448d2ab0e3a38c5c43d019aee"
+    },
+    {
+      "path": "tests/test_gui.py",
+      "size": 10418,
+      "sha256": "b887c65a40ddc56d46806c05e25d53279819a5e782fb5f7d85bf572ed71151d4"
+    },
+    {
+      "path": "tests/test_integration.py",
+      "size": 7318,
+      "sha256": "2ff886c1557da109617d77db453716fc213f351d7a668f133c9972f88883a924"
+    },
+    {
+      "path": "tests/test_packaging.py",
+      "size": 4888,
+      "sha256": "c3cc51ad6c1d699e0043beba8ee432112e94fc4484407c84bcb9a9274723ec22"
+    },
+    {
+      "path": "tests/test_public_source.py",
+      "size": 3414,
+      "sha256": "e4e7c2dbdaf7de0649bd852f4856039d2d2b176f57d4dbb731c83b131c81c0af"
+    },
+    {
+      "path": "tests/test_release_archives.py",
+      "size": 6146,
+      "sha256": "7f1bc76bb3d5dbf701421d59bd6acdb172e94a685e85cfb2163de534d183f419"
+    },
+    {
+      "path": "tests/test_reliability.py",
+      "size": 6236,
+      "sha256": "9eebfda32faea31cb7c3ae714d91d0f8f8fbc48f9befc02d2b92699f3db3d52a"
+    },
+    {
+      "path": "tests/test_reports.py",
+      "size": 11812,
+      "sha256": "39ae17f8b033d6951bdf471efdc40479b57bf309681f0a0f37d87b318f5a6ded"
+    },
+    {
+      "path": "tests/test_scanner.py",
+      "size": 3828,
+      "sha256": "d5250641f9ca968fc6c1c207b5ff556c39f025b4aef132e83944da83767d79ff"
+    },
+    {
+      "path": "third_party/altgraph/LICENSE",
+      "size": 1002,
+      "sha256": "6c194d6db0c64d45535d10c95142b9b0cda7b7dcc7f1ddee302b3d536f3dbe46"
+    },
+    {
+      "path": "third_party/DEPENDENCIES.json",
+      "size": 4245,
+      "sha256": "591cc1fcf8d586757116fd773fa2eccc8a471cfe7f4374242a53ed7af203c3ae"
+    },
+    {
+      "path": "third_party/et_xmlfile/AUTHORS.txt",
+      "size": 82,
+      "sha256": "7f038029ea5463605dd2278d300099a381bce9e90dda83ccab2042346b6c8107"
+    },
+    {
+      "path": "third_party/et_xmlfile/LICENCE.python",
+      "size": 14688,
+      "sha256": "4ccdaaebc0f44b83720ec0399bb7ab329adce067dd62f73c5535a2dc05628ab2"
+    },
+    {
+      "path": "third_party/et_xmlfile/LICENCE.rst",
+      "size": 1131,
+      "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e"
+    },
+    {
+      "path": "third_party/manifest.json",
+      "size": 24262,
+      "sha256": "0c41973ddd1a19fb0be989536efb8388d90ceab3d3abb4db50b4533246a81385"
+    },
+    {
+      "path": "third_party/openpyxl/LICENCE.rst",
+      "size": 1131,
+      "sha256": "0c84bb42f5d367e5ebf9fc2dde35b16141df5ee0fdc189250858bc6c5560f69e"
+    },
+    {
+      "path": "third_party/OpenSSL/LICENSE.txt",
+      "size": 10175,
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+    },
+    {
+      "path": "third_party/packaging/licenses/LICENSE",
+      "size": 197,
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "path": "third_party/packaging/licenses/LICENSE.APACHE",
+      "size": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "third_party/packaging/licenses/LICENSE.BSD",
+      "size": 1344,
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "path": "third_party/pefile/LICENSE",
+      "size": 1083,
+      "sha256": "b44409c067c6da52bfb54bb6624fb11a7b52157c3a13ae1400232f8196e86ad3"
+    },
+    {
+      "path": "third_party/psutil/LICENSE",
+      "size": 1577,
+      "sha256": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80"
+    },
+    {
+      "path": "third_party/pyinstaller/licenses/COPYING.txt",
+      "size": 32604,
+      "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+    },
+    {
+      "path": "third_party/pyinstaller-hooks-contrib/licenses/LICENSE",
+      "size": 27666,
+      "sha256": "91d0baaff00773038e72c0a1fc9d5d2d38706b7a2b9c04f34296608f931b9cd0"
+    },
+    {
+      "path": "third_party/Python/Doc-license.rst",
+      "size": 54130,
+      "sha256": "341832873fd316a37927e79385093fbbfd40a467428480835fe435a80cadf4e5"
+    },
+    {
+      "path": "third_party/Python/LICENSE.txt",
+      "size": 25066,
+      "sha256": "886a0ead2d89030ee62dbff52b04e47ab91998341295bb9c56fb952b4e081c7a"
+    },
+    {
+      "path": "third_party/pywin32-ctypes/LICENSE.txt",
+      "size": 1644,
+      "sha256": "dfa83b3e2709adfcdb838d9ad55823ca674abb780e60563d9dd9544ccbf785e9"
+    },
+    {
+      "path": "third_party/Qt/Apache-2.0.txt",
+      "size": 10398,
+      "sha256": "e3ba223bb1423f0aad8c3dfce0fe3148db48926d41e6fbc3afbbf5ff9e1c89cb"
+    },
+    {
+      "path": "third_party/Qt/BSD-2-Clause.txt",
+      "size": 1276,
+      "sha256": "8fda146749ca071ac9cdce2e24d25444676ea48d1f9dccc2b7c15c054b717db8"
+    },
+    {
+      "path": "third_party/Qt/BSD-3-Clause.txt",
+      "size": 1469,
+      "sha256": "9f0490f18656c6f2435bd14f603ef0c96434d1825615363dce43abb42ed1dcce"
+    },
+    {
+      "path": "third_party/Qt/CC0-1.0.txt",
+      "size": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "third_party/Qt/FTL.txt",
+      "size": 6743,
+      "sha256": "08c135755dd589039470f1fdbb400daaabaaa50d0b366d19cebff4d22986baa1"
+    },
+    {
+      "path": "third_party/Qt/GPL-2.0-only.txt",
+      "size": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "third_party/Qt/GPL-3.0-only.txt",
+      "size": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "third_party/Qt/IJG.txt",
+      "size": 1815,
+      "sha256": "1cb448f5e2e6d3aca60943f4eee1a04675628dc0266a074a42bc1560ebc28d61"
+    },
+    {
+      "path": "third_party/Qt/LGPL-3.0-only.txt",
+      "size": 7651,
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+    },
+    {
+      "path": "third_party/Qt/libpng-2.0.txt",
+      "size": 5345,
+      "sha256": "7317e078e2d3b5d7ba5a6159e650945153262b44b76f6700f8e9edb261c5143e"
+    },
+    {
+      "path": "third_party/Qt/Libpng.txt",
+      "size": 4120,
+      "sha256": "58fe669792f9b4e0740bf75ecfe90b5326128bb2ce7e27e1c342abd9db4d8ea6"
+    },
+    {
+      "path": "third_party/Qt/LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt",
+      "size": 1852,
+      "sha256": "0526625fcc746a42d3f19a0ab357d3dc8479fdbe3bfd168825498f50215c7a63"
+    },
+    {
+      "path": "third_party/Qt/LicenseRef-ICC-License.txt",
+      "size": 463,
+      "sha256": "9e34ff47b3a44814e183342e7e198d127a6740e29d20e8381fba7688dafc79dd"
+    },
+    {
+      "path": "third_party/Qt/LicenseRef-Lcs-Telegraphics.txt",
+      "size": 139,
+      "sha256": "c10225ebbd5191bfdd761b0d7752c785f2453ab665d6c454473fb12d254668aa"
+    },
+    {
+      "path": "third_party/Qt/LicenseRef-Qt-Commercial.txt",
+      "size": 470,
+      "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3"
+    },
+    {
+      "path": "third_party/Qt/LicenseRef-SHA1-Public-Domain.txt",
+      "size": 144,
+      "sha256": "65d86b8ec6b1cd8b8f6e64fd8710274ba00d6a3c520e00dfdcd1c3d2071f3305"
+    },
+    {
+      "path": "third_party/Qt/MIT-open-group.txt",
+      "size": 897,
+      "sha256": "c55d2ab72d8a4f9e9cd8fbd1379268e575e8cfa16874affa5899b75a6d754514"
+    },
+    {
+      "path": "third_party/Qt/MIT.txt",
+      "size": 1111,
+      "sha256": "d040359701c01996a017d5c515678929cd1b0625e64cb86db44025fbb6cdf1fc"
+    },
+    {
+      "path": "third_party/Qt/MPL-2.0.txt",
+      "size": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "path": "third_party/Qt/qtbase/blake2/COPYING",
+      "size": 17914,
+      "sha256": "4103f471877ed0bae500752c5fcd7ecca409d4a4a8dc2ad40437daba60f1a2bc"
+    },
+    {
+      "path": "third_party/Qt/qtbase/blake2/qt_attribution.json",
+      "size": 926,
+      "sha256": "bab552307bdd03ed9a4cf7f8f1397c3d18d4dbee19ee576033284104785245be"
+    },
+    {
+      "path": "third_party/Qt/qtbase/D3D12MemoryAllocator/LICENSE.txt",
+      "size": 1099,
+      "sha256": "5478a2f36b736e13dd3250b9c71a4ab521bc327fb9d112a92c647bf3e69ddb68"
+    },
+    {
+      "path": "third_party/Qt/qtbase/D3D12MemoryAllocator/qt_attribution.json",
+      "size": 693,
+      "sha256": "ad36f74f9d5bb4c2a5d7bce97507711452a2089c1f4f673473bf75d17851f381"
+    },
+    {
+      "path": "third_party/Qt/qtbase/double-conversion/LICENSE",
+      "size": 1527,
+      "sha256": "4af93c12062c58058378de2397dc1c92bbff9ddfb1d583a01c84127557ce97ca"
+    },
+    {
+      "path": "third_party/Qt/qtbase/double-conversion/qt_attribution.json",
+      "size": 771,
+      "sha256": "4d9c7505a7c12e4e6b57bbee63af926c861abb5515cdf802b8f3491e321146fe"
+    },
+    {
+      "path": "third_party/Qt/qtbase/easing/LICENSE",
+      "size": 1505,
+      "sha256": "92fac99458f1754b73edf50f9c9983e0efaa06ad96e2afd5e538c79f45b4b191"
+    },
+    {
+      "path": "third_party/Qt/qtbase/easing/qt_attribution.json",
+      "size": 471,
+      "sha256": "77d67a1db5882bb0b9a1278b014885bee45a4c059d1da9f835b6da5bc4b9c93d"
+    },
+    {
+      "path": "third_party/Qt/qtbase/emoji-segmenter/qt_attribution.json",
+      "size": 682,
+      "sha256": "9a980fc0f9e478d2a7e9a571d4cd234c259aaf8e2ea3fb60a0a7cf02cc3c3700"
+    },
+    {
+      "path": "third_party/Qt/qtbase/forkfd/LICENSE",
+      "size": 1148,
+      "sha256": "d0d683ae18e78fbef90eb41168fb781920da2d12bf80704490f0882915c18ae0"
+    },
+    {
+      "path": "third_party/Qt/qtbase/forkfd/qt_attribution.json",
+      "size": 493,
+      "sha256": "525fd890017a3966f542da42a9ff0ca2a0d71bc45f80a4871de3e0bd0f612612"
+    },
+    {
+      "path": "third_party/Qt/qtbase/freetype/BDF-LICENSE.txt",
+      "size": 2305,
+      "sha256": "e4e792f29e66750f2e410fd7b50a567652c180f6ee15e1a4dfa0bb5cde524537"
+    },
+    {
+      "path": "third_party/Qt/qtbase/freetype/LICENSE.txt",
+      "size": 26234,
+      "sha256": "bf543cdda11864477b8d2ca2aa9afc2aaa8f9133461b4d962ed6ec73646256a1"
+    },
+    {
+      "path": "third_party/Qt/qtbase/freetype/PCF-LICENSE.txt",
+      "size": 2218,
+      "sha256": "6938597bfdeca0db191a8f9ede52eaf2482c2c71a0094c084747a1235f9958fe"
+    },
+    {
+      "path": "third_party/Qt/qtbase/freetype/qt_attribution.json",
+      "size": 5328,
+      "sha256": "628b68bf60eb3bc1616342bc3545b63be2392e78bbebbc4c19f49675dd2ac8a7"
+    },
+    {
+      "path": "third_party/Qt/qtbase/freetype/ZLIB-LICENSE.txt",
+      "size": 962,
+      "sha256": "2b1f5d615382a151af3eb71462ad17d89e2efee8fa7664058d35d3d9237ebb19"
+    },
+    {
+      "path": "third_party/Qt/qtbase/harfbuzz-ng/COPYING",
+      "size": 1971,
+      "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+    },
+    {
+      "path": "third_party/Qt/qtbase/harfbuzz-ng/qt_attribution.json",
+      "size": 1646,
+      "sha256": "b869a7f186e4cfc00cc979e7c4ffd369d823f7a0a94b951a6aedb9b3278c8419"
+    },
+    {
+      "path": "third_party/Qt/qtbase/icc/LICENSE.txt",
+      "size": 463,
+      "sha256": "9e34ff47b3a44814e183342e7e198d127a6740e29d20e8381fba7688dafc79dd"
+    },
+    {
+      "path": "third_party/Qt/qtbase/icc/qt_attribution.json",
+      "size": 775,
+      "sha256": "509da9bd2b3f769c730aa4627b1080d65f39b0ecd4130111c9e1122e13cd35b5"
+    },
+    {
+      "path": "third_party/Qt/qtbase/libjpeg/COPYRIGHT.txt",
+      "size": 606,
+      "sha256": "e5b349c6a98d997a8d0f5fcfe5cc900b1f76bbc32743674c52a70981498748c0"
+    },
+    {
+      "path": "third_party/Qt/qtbase/libjpeg/ijg-license.txt",
+      "size": 1815,
+      "sha256": "1cb448f5e2e6d3aca60943f4eee1a04675628dc0266a074a42bc1560ebc28d61"
+    },
+    {
+      "path": "third_party/Qt/qtbase/libjpeg/LICENSE",
+      "size": 6077,
+      "sha256": "ba6bceebcba0fdd35488477c2cca8c4632ce82c74dbfbc87d886ce6fc4433579"
+    },
+    {
+      "path": "third_party/Qt/qtbase/libjpeg/qt_attribution.json",
+      "size": 859,
+      "sha256": "ed7cb7abdd9124f664acd26cf552ba821c8cf236c4cd34a6737f202215bd41bc"
+    },
+    {
+      "path": "third_party/Qt/qtbase/libpng/LICENSE",
+      "size": 5345,
+      "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526"
+    },
+    {
+      "path": "third_party/Qt/qtbase/libpng/qt_attribution.json",
+      "size": 1763,
+      "sha256": "a43ff8e146c949f7cd14e00bd681f4957e27def06ecafec55ccc7231c451d3fa"
+    },
+    {
+      "path": "third_party/Qt/qtbase/libpsl/PSL-LICENSE.txt",
+      "size": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "path": "third_party/Qt/qtbase/libpsl/qt_attribution.json",
+      "size": 2458,
+      "sha256": "ae227b5f2cf40511fe1a84d4c752f4005917b7eeb44e7c4495b1403c27cc3647"
+    },
+    {
+      "path": "third_party/Qt/qtbase/md4/qt_attribution.json",
+      "size": 574,
+      "sha256": "34bda63a2fcc23c83f2e5364ccd394553b4baa505b1f79ded9cc2161c56a9b4c"
+    },
+    {
+      "path": "third_party/Qt/qtbase/md4c/LICENSE.md",
+      "size": 1096,
+      "sha256": "d30937367d5413e7eaa218b1640b8946ff76fd34d97152f6979fd96169d5d0fc"
+    },
+    {
+      "path": "third_party/Qt/qtbase/md4c/qt_attribution.json",
+      "size": 673,
+      "sha256": "7b2bc7be22e4be2a2984119ce3d0bfc210ddd0d8ef6193d66e8479d4c22af4ba"
+    },
+    {
+      "path": "third_party/Qt/qtbase/md5/qt_attribution.json",
+      "size": 446,
+      "sha256": "20b0f1b17ccd1bd5e8d763b1cdca4b095b8f0c037644b5ee18154536b7d8425e"
+    },
+    {
+      "path": "third_party/Qt/qtbase/pcre2/LICENCE.md",
+      "size": 4011,
+      "sha256": "197d8a73ffee0d6b09adba2f9c677b5f5aede24edf89258a68e48248d010d811"
+    },
+    {
+      "path": "third_party/Qt/qtbase/pcre2/LICENSE-SLJIT",
+      "size": 1444,
+      "sha256": "5f216505c0f6ea3273caec89e766eef93cdeb7bbb0c429f9360116d7c938feeb"
+    },
+    {
+      "path": "third_party/Qt/qtbase/pcre2/qt_attribution.json",
+      "size": 1829,
+      "sha256": "c65e311b057e3ecb8ee9aeddd681add5aa4484485e265d3a6a8e7967abc19948"
+    },
+    {
+      "path": "third_party/Qt/qtbase/pixman/LICENSE",
+      "size": 1092,
+      "sha256": "942c4f2a80394d3f53599b8382e9f27349b95c45d92b69b84f26d404f4dd74a5"
+    },
+    {
+      "path": "third_party/Qt/qtbase/pixman/qt_attribution.json",
+      "size": 597,
+      "sha256": "f1dc159b63bf84a4c9c367e8ff79aa748b63f5fc622d5080c0a7ddd98ddc7ac7"
+    },
+    {
+      "path": "third_party/Qt/qtbase/rfc6234/LICENSE",
+      "size": 1568,
+      "sha256": "7ccebd514aaabc86192f957d773cebf06577c12fe9f25ecd419c6cac5da7a14c"
+    },
+    {
+      "path": "third_party/Qt/qtbase/rfc6234/qt_attribution.json",
+      "size": 660,
+      "sha256": "fa24413bdc5015fc7fc84297fa17d4c8a598f8f7c76b9495a6e6b26a77b4a324"
+    },
+    {
+      "path": "third_party/Qt/qtbase/sha1/qt_attribution.json",
+      "size": 618,
+      "sha256": "53cab2c771f7f7ffbf6a58ff759e5846b746e91d98dfe467d5145edf8cd7d306"
+    },
+    {
+      "path": "third_party/Qt/qtbase/sha3/BRG_ENDIAN_LICENSE",
+      "size": 645,
+      "sha256": "2fed6f252ca4a7e813811de3cd3cd08183edd4138bdee909410ef6eee394e82c"
+    },
+    {
+      "path": "third_party/Qt/qtbase/sha3/CC0_LICENSE",
+      "size": 7013,
+      "sha256": "1f2786e2c5befeb4dcba6638db6528bf96ef5d2cf24bc85ab5a81ef00abef59d"
+    },
+    {
+      "path": "third_party/Qt/qtbase/sha3/qt_attribution.json",
+      "size": 2322,
+      "sha256": "d904a6c21c150d9cac693c0806a469480306cb4e5879cc13c994fbadba71a56e"
+    },
+    {
+      "path": "third_party/Qt/qtbase/siphash/qt_attribution.json",
+      "size": 793,
+      "sha256": "8614947dfc0ca1d21aad2f88b4400598262ab8c08aa87c4f7acc0c2de6e5619e"
+    },
+    {
+      "path": "third_party/Qt/qtbase/tinycbor/LICENSE",
+      "size": 1074,
+      "sha256": "3c6ba0b5bfa7830505301ffb336a17b0748e0d61c4d34216e9dc98f10e40395e"
+    },
+    {
+      "path": "third_party/Qt/qtbase/tinycbor/qt_attribution.json",
+      "size": 685,
+      "sha256": "788408509fb7967042640f24ba78b263712e816d886303ba1733f49753d33863"
+    },
+    {
+      "path": "third_party/Qt/qtbase/VulkanMemoryAllocator/LICENSE.txt",
+      "size": 1099,
+      "sha256": "846d97c8b74ccaa92b9ad031140a04363b3b3985f318094552f297b8bda1c68e"
+    },
+    {
+      "path": "third_party/Qt/qtbase/VulkanMemoryAllocator/qt_attribution.json",
+      "size": 699,
+      "sha256": "bdadb296dc4d3aadea5f9eb68f8f4abab2e6a9e135fec084d2914c030af5bab2"
+    },
+    {
+      "path": "third_party/Qt/qtbase/wintab/qt_attribution.json",
+      "size": 602,
+      "sha256": "b879ea91b719531d45e1cfe33d2241d060a9260200bd91a09ada074b16063f9c"
+    },
+    {
+      "path": "third_party/Qt/qtbase/zlib/LICENSE",
+      "size": 1465,
+      "sha256": "d7e3139972874dc8abdbbfce27ec1e6f942b28279dd7d27453630a8b4610e080"
+    },
+    {
+      "path": "third_party/Qt/qtbase/zlib/qt_attribution.json",
+      "size": 731,
+      "sha256": "0346805e9c4048316dbc7c58d560a20c12482ea0218de264282212e9619b6d64"
+    },
+    {
+      "path": "third_party/Qt/qtimageformats/libtiff/COPYRIGHT",
+      "size": 1146,
+      "sha256": "fbd6fed7938541d2c809c0826225fc85e551fdbfa8732b10f0c87e0847acafd7"
+    },
+    {
+      "path": "third_party/Qt/qtimageformats/libtiff/qt_attribution.json",
+      "size": 758,
+      "sha256": "db4ba26120260df0e74e41e8293af5ceb7c9caedeedaa397fff76c51a2140498"
+    },
+    {
+      "path": "third_party/Qt/qtimageformats/libwebp/COPYING",
+      "size": 1496,
+      "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+    },
+    {
+      "path": "third_party/Qt/qtimageformats/libwebp/qt_attribution.json",
+      "size": 880,
+      "sha256": "f6d3cead2ec8d7741e6c6bbb87599a50ef2f5fac8da432bb68c02d0332cfd1b8"
+    },
+    {
+      "path": "third_party/Qt/Zlib.txt",
+      "size": 1465,
+      "sha256": "d7e3139972874dc8abdbbfce27ec1e6f942b28279dd7d27453630a8b4610e080"
+    },
+    {
+      "path": "third_party/setuptools/licenses/LICENSE",
+      "size": 1023,
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+    },
+    {
+      "path": "tools/archive_release.py",
+      "size": 10602,
+      "sha256": "6c7367afa4a908cd67adb63d1feccf239b2c11100a11a5fc8fe75d666b4864a7"
+    },
+    {
+      "path": "tools/create_demo.py",
+      "size": 1890,
+      "sha256": "87297031a8a2d0440a9d03704bfda0775fac3645b35a3ef81fc61cfae8aca526"
+    },
+    {
+      "path": "tools/package_release.py",
+      "size": 4879,
+      "sha256": "87e2fcb7af88b1e2e6bf6000cb5ea2d56e0ab621d8f700d18cfa59d11b99d45d"
+    },
+    {
+      "path": "tools/prepare_github_source.py",
+      "size": 5291,
+      "sha256": "feb5cf8172496991bb8a2f45bbf1dd98d784074df785a9c069f8c09f7061e0bf"
+    },
+    {
+      "path": "version_info.txt",
+      "size": 621,
+      "sha256": "efe701901b11dad6c4c43de84cd3207c0715ac593b0eebf0bb2359606c363ce8"
+    },
+    {
+      "path": "wtjudge/__init__.py",
+      "size": 67,
+      "sha256": "73689879be929f1603ec239874c5fe6f5ecceef1755a54a726bcb54110130b0f"
+    },
+    {
+      "path": "wtjudge/core/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wtjudge/core/comparator.py",
+      "size": 4373,
+      "sha256": "9dacfeb17b6ebff54a0dead0d130ad23ba6c90f6a88f380a8a9851f1d710c950"
+    },
+    {
+      "path": "wtjudge/core/compiler.py",
+      "size": 2431,
+      "sha256": "88ec979f3f13f20e8905d11038828006321b6695f4eb36e65012fe8203524010"
+    },
+    {
+      "path": "wtjudge/core/executor.py",
+      "size": 7160,
+      "sha256": "04e411b7a424c41dd3e4a18cd7e93b37e3cdfcfccf55e9c7513e25b83ce09573"
+    },
+    {
+      "path": "wtjudge/core/judge.py",
+      "size": 6774,
+      "sha256": "3f72fce99eaeec93a26b9678627e60e63e13123de725f874e56385b7b5c14cee"
+    },
+    {
+      "path": "wtjudge/core/models.py",
+      "size": 9180,
+      "sha256": "df9ea7f6e1eb8ca98ce5429429e9ac67af0900c2733f38c332315d760da4d25a"
+    },
+    {
+      "path": "wtjudge/core/scanner.py",
+      "size": 6845,
+      "sha256": "8796b37a631224de48e01c7a528edaf2cd176a03159a53d9c80be064fd770f38"
+    },
+    {
+      "path": "wtjudge/core/winjob.py",
+      "size": 9193,
+      "sha256": "57cdff788e03bd6adc8a07955e5c6fdc997c2f21387659e05f0bbfc41e2f1637"
+    },
+    {
+      "path": "wtjudge/gui/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wtjudge/gui/dialogs.py",
+      "size": 9115,
+      "sha256": "f03285d910d150bad44f6fac39301a6cfe4f9fa4cc8dc21e3783e8ce84cf52dd"
+    },
+    {
+      "path": "wtjudge/gui/glass_theme.py",
+      "size": 7861,
+      "sha256": "680065accbc1a6cde78238e2ff97efd107dbbc8169067079a228999cfccb0e0c"
+    },
+    {
+      "path": "wtjudge/gui/main_window.py",
+      "size": 46387,
+      "sha256": "e61689b958f84828a30dc1b982b5230d36d84f3b23b89094b5d759a32282e898"
+    },
+    {
+      "path": "wtjudge/gui/resources.py",
+      "size": 513,
+      "sha256": "7929352eb54f6a5a6aefb230dfc429a1c8e1ae1039dd7744130540a5177af9bf"
+    },
+    {
+      "path": "wtjudge/gui/table_items.py",
+      "size": 1998,
+      "sha256": "89532e713572417b1ad93293090089aee86f6bfca6e9b3ee973c106f56600610"
+    },
+    {
+      "path": "wtjudge/gui/theme.py",
+      "size": 166,
+      "sha256": "85f6aff02d114844cea44e1b271177cc47c5441878dde268fbd8c60080290093"
+    },
+    {
+      "path": "wtjudge/gui/worker.py",
+      "size": 697,
+      "sha256": "ce0e8db6b3dc777a9b2a34a981d129c3fd12da7bc69a87d81ccdfc57c5c42b4b"
+    },
+    {
+      "path": "wtjudge/presentation.py",
+      "size": 2706,
+      "sha256": "19431a5744834b7efb965c16149d456cccafff7e6d4b9cab5eb3d880b4c3c79a"
+    },
+    {
+      "path": "wtjudge/reports/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wtjudge/reports/exporter.py",
+      "size": 17782,
+      "sha256": "665c89d5b7587020c521c397ec488915e4b72cd0ab3002129322adb953b28e51"
+    },
+    {
+      "path": "wtjudge/reports/style.py",
+      "size": 7883,
+      "sha256": "6a6208c63de65cf7915222a725c05ebbbb7f7337091d9a4436abe359b7cf66b7"
+    },
+    {
+      "path": "wtjudge/storage/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "wtjudge/storage/project.py",
+      "size": 2261,
+      "sha256": "41853662b2efe6d72743306f1a19a7dda337df5110e4dd295575b42956b3bf21"
+    },
+    {
+      "path": "wtjudge.spec",
+      "size": 2585,
+      "sha256": "633b275105f289b8328249fe4803829a43d348f1ae2928d877a7215b2b0d997b"
+    }
+  ]
+}
